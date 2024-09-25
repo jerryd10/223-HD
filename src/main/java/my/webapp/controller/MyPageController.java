@@ -15,8 +15,8 @@ import org.springframework.web.bind.annotation.RequestParam;
 @Controller
 public class MyPageController{
 
-	@RequestMapping("/home")
-	public String home() {
+	@RequestMapping("/showPage")
+	public String showPage() {
 		return "mypage";
 	}
 	
