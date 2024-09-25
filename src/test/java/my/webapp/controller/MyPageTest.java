@@ -15,7 +15,7 @@ public class MyPageTest{
 	public void test() {
 		System.out.println("Webapp has started...");
         MyPageController controller = new MyPageController();
-        String result = controller.home();
+        String result = controller.showPage();
         System.out.println(result);
 
 		assertEquals(result, "mypage");
