@@ -1,5 +1,5 @@
 version: 0.0
 os: linux
 files:
-  - source: target/myapp.war
+  - source: target/hd-task-4.war
     destination: /var/lib/tomcat10/webapps/
