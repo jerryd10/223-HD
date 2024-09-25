@@ -102,7 +102,6 @@
 
   <build>
     <finalName>hd-task-4</finalName>
-    <directory>${project.basedir}</directory>
     <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
       <plugins>
   <plugin>
@@ -116,21 +115,6 @@
             <artifactId>maven-surefire-plugin</artifactId>
             <version>3.0.0-M5</version> <!-- or a stable version -->
         </plugin>
-	<plugin>
-      <groupId>org.apache.maven.plugins</groupId>
-      <artifactId>maven-clean-plugin</artifactId>
-      <version>3.2.0</version>
-      <configuration>
-        <filesets>
-          <fileset>
-            <directory>${project.basedir}</directory>
-            <excludes>
-              <exclude>*.war</exclude> <!-- This prevents deleting your .war file -->
-            </excludes>
-          </fileset>
-        </filesets>
-      </configuration>
-    </plugin>
 	      
 </plugins>
      
