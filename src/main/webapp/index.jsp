@@ -10,7 +10,7 @@
   <h1>My simple webpage</h1>
   <p>Hiiiiiiiiiiiiiiiiiiiiiiiiiiiii</p>
 
-  <form action="${pageContext.request.contextPath}/mypage">
+  <form action="${pageContext.request.contextPath}/showPage">
   Back to mypage? <input type="submit" value="Yes" />  
   </form>
 
