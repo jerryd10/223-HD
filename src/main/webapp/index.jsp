@@ -1,2 +1,2 @@
-<%response.sendRedirect("home"); %>
+<%response.sendRedirect(request.getContextPath() + "/showPage"); %>
 
